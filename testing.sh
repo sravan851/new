@@ -1,4 +1,5 @@
 #!/bin/bash
+#1st pro
 user=$1
 cat /etc/passwd | awk -F ":" '{print $1}'| grep $user
 i=$?
